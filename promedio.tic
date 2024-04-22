@@ -1,0 +1,22 @@
+Algoritmo CalcularPromedioContinuo
+    Definir calificacion1, calificacion2, calificacion3, promedio, opcionComo Entero
+
+    Repetir
+        Escribir "Ingrese la primera calificación (0 para salir): "
+        Leer calificacion1
+
+        Si calificacion1 <> 0 Entonces
+            Escribir "Ingrese la segunda calificación: "
+            Leer calificacion2
+            Escribir "Ingrese la tercera calificación: "
+            Leer calificacion3
+
+            promedio <- (calificacion1 + calificacion2 + calificacion3) / 3
+            Escribir "El promedio es: ", promedio
+        FinSi
+
+        Escribir "¿Desea calcular otro promedio? (1 para sí, 0 para salir): "
+        Leer opcion
+    Hasta Que opcion = 0
+
+FinAlgoritmo
